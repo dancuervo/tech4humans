@@ -149,7 +149,7 @@
 
         
         <div class="col-md-4">
-            <h3 class="text-muted text-center text-capitalize py-5"><?php echo get_the_title( ) ;?></h3>
+            <h3 class="text-muted text-center text-capitalize pt-2"><?php echo get_the_title( ) ;?></h3>
             <?php
                 echo "<span class=\"lead text-muted\">" . get_the_content(  ) . "</span>";
 
@@ -232,7 +232,7 @@
                 $query->the_post( );
             ?>
 
-              <h3 class="text-mutedr text-capitalize"><?php echo get_the_title(  ) ;?></h3>
+              <h3 class="text-muted text-capitalize"><?php echo get_the_title(  ) ;?></h3>
 
             <?php
 
